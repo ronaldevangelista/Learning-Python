@@ -1,4 +1,4 @@
-n1 = int(input("Insira um número e veja sua tabuada"))
+n1 = int(input("Insira um número e veja sua tabuada: "))
 
 print("{} x 1 = {}".format(n1, n1 * 1))
 print("{} x 2 = {}".format(n1, n1 * 2))
