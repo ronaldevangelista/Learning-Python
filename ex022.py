@@ -1,4 +1,4 @@
-nome = input("Insira o nome de uma pessoa: ")
+nome = str(input("Insira o nome de uma pessoa: ")).strip()
 
 print("O nome com todas as letras maiúsculas: {}".format(nome.upper()))
 print("O nome com todas as letras minúsculas: {}".format(nome.lower()))

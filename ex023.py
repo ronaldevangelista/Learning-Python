@@ -1,12 +1,16 @@
-n1 = int(input("Insira qualquer número: "))
+n1 = str(input("Insira qualquer número: "))
 
-#Math way:
-print("Unidade(s): {}".format(n1 % 10))
-print("Dezena(s): {:.0f}".format((n1 % 100 - (n1 %10)) / 10))
-print("Centena(s): {:.0f}".format((n1 % 1000 - (n1 % 100)) / 100))
-print("Milhar(es): {:.0f}".format((n1 % 10000 - (n1 %1000)) / 1000))
+print("Calcúlo Matemático")
+# Math way:
+print("Unidade(s): {}".format(int(n1) % 10))
+print("Dezena(s): {:.0f}".format((int(n1) // 10 % 10)))
+print("Centena(s): {:.0f}".format((int(n1) // 100 % 10)))
+print("Milhar(es): {:.0f}".format((int(n1) // 1000 % 10)))
 
-#String Manipulation Way:
+print("----x----")
+print("Manipulação de String")
+print("----x----")
+# String Manipulation Way:
 print("Unidade(s): {}".format(n1[3]))
 print("Dezena(s): {}".format(n1[2]))
 print("Centena(s): {}".format(n1[1]))
