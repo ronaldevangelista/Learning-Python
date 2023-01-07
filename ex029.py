@@ -1,7 +1,7 @@
+from time import sleep
 print("Passando no radar...")
 km = float(input("insira a velocidade do seu carro: "))
 
-from time import sleep
 print("CARREGANDO...")
 sleep(4)
 
